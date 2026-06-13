@@ -13,12 +13,12 @@ st.set_page_config(page_title="FraudInvestigator Lite", layout="wide")
 
 @st.cache_data
 def load_transactions():
-    return pd.read_csv("data/sample_transactions.csv")
+    return pd.read_csv("sample_transactions.csv")
 
 
 @st.cache_data
 def load_evidence():
-    return pd.read_csv("data/evidence_samples.csv")
+    return pd.read_csv("evidence_samples.csv")
 
 
 st.title("FraudInvestigator Lite")
