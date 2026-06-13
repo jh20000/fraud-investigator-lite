@@ -1,0 +1,6 @@
+case_id,case_type,country,channel,merchant_category,signal,investigation_note
+EV001,high_amount_night,KR,web,electronics,심야 시간대 고액 결제와 평소 평균 대비 큰 금액 차이,본인 사용 여부와 최근 기기 변경 이력 확인 필요
+EV002,overseas_new_account,SG,mobile,travel,신규 계정의 해외 고액 거래와 낮은 거래 이력,출국 여부 및 해외 이용 이력 확인 필요
+EV003,digital_goods_pattern,VN,mobile,digital_goods,해외 디지털 상품 결제와 평균 금액 대비 상승,반복 결제 여부와 계정 탈취 가능성 확인 필요
+EV004,cash_withdrawal_spike,KR,atm,cash_withdrawal,현금 인출 채널에서 단기 거래 빈도 증가,최근 분실 신고 및 인출 위치 확인 필요
+EV005,normal_domestic,KR,mobile,groceries,국내 생활 업종의 평소 패턴과 유사,추가 이상 신호가 낮아 일반 모니터링 가능

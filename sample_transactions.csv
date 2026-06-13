@@ -1,0 +1,7 @@
+transaction_id,customer_id,transaction_time,amount,currency,country,channel,merchant_category,device_id,account_age_days,past_30d_tx_count,avg_30d_amount,ml_fraud_score
+TX1001,C001,2026-06-01 10:12:00,82000,KRW,KR,mobile,groceries,DV-101,920,38,76000,0.12
+TX1002,C002,2026-06-01 23:48:00,1950000,KRW,KR,web,electronics,DV-292,44,6,180000,0.78
+TX1003,C003,2026-06-02 02:17:00,4300000,KRW,SG,mobile,travel,DV-777,18,2,230000,0.91
+TX1004,C004,2026-06-02 13:05:00,125000,KRW,KR,atm,cash_withdrawal,DV-404,1330,52,118000,0.24
+TX1005,C005,2026-06-03 00:31:00,760000,KRW,VN,mobile,digital_goods,DV-515,86,9,95000,0.66
+TX1006,C006,2026-06-03 18:22:00,54000,KRW,KR,mobile,cafe,DV-616,410,24,61000,0.08
