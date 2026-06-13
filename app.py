@@ -1,11 +1,11 @@
 import pandas as pd
 import streamlit as st
 
-from src.decision_router import route_decision
-from src.evidence_retriever import find_similar_evidence
-from src.ml_scorer import get_ml_score
-from src.report_generator import generate_report
-from src.rule_engine import calculate_rule_score
+from decision_router import route_decision
+from evidence_retriever import find_similar_evidence
+from ml_scorer import get_ml_score
+from report_generator import generate_report
+from rule_engine import calculate_rule_score
 
 
 st.set_page_config(page_title="FraudInvestigator Lite", layout="wide")
